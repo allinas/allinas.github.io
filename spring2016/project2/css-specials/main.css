@@ -151,40 +151,195 @@ h1 {
 	font-size:40px;
 	color: #720927; 
 	
+	
 }
-h2 {
-	float: right;
-	margin-right: 200px;
-	margin-top: 70px;
-	color: #6d572c;
+.ashe-reshte-image {
+	float: left;
+}
+.ashereshte-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 170px;
+	margin-top: 10px;
 	font-family: lucida bright, dejavu sans condensed, serif;
-	font-size: 30px;
-	font-style: italic;
-	
-	
-}
-h3 {
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -120px;
-	font-size: 16px;
 	color: #6d572c;
-	margin-right: 30px;
-	
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 220px;
 }
 
-.line-motif {
-	float: right;
+.ashe-reshte-desc {
 	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.kashk-image {
+		
+	float: left;
+	padding-top: 50px;
+}
+.kashk-tittle {
 	
-	margin-top: -200px;
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 180px;
+}
+.kash-desc {
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.sholezard-image {
+	
+	float: left;
+	padding-top: 50px;
+}
+.sholezard-tittle {
+	
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 200px;
+}
+.sholezard-desc {
+	text-align: center;
+	margin-left: 480px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+	
+.sonati-image {
+	float: left;
+	padding-top: 50px;
+}
+.sonati-title {
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 200px;
+}
+.sonati-dec {
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.faloode-image {
+	float: left;
+	padding-top: 50px;
+}
+.faloode-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top:-230px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 600px;
+	
+}
+.faloode-desc {
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 200px;
 }
 
-
-
-
+.mast-moosir-image {
+	
+	float: left;
+	padding-top: 50px;
+}
+.moosir-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 200px;
+}
+.moosir-desc {
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+.dough-image {
+	
+	float: left;
+	padding-top: 50px;
+}
+.doogh-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 100px;
+	margin-top: 70px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 200px;
+}
+.doogh-desc {
+	
+	text-align: center;
+	margin-left: 490px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+	
 
 footer {
 	

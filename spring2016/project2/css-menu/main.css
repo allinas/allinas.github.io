@@ -154,102 +154,164 @@ h1 {
 	color: #720927; 
 	
 }
-h2 {
-	float: right;
-	margin-right: 200px;
-	margin-top: 70px;
-	color: #6d572c;
+.kabobs-image {
+	float: left;
+	padding-top: 50px;
+}
+.kabob-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 170px;
+	margin-top: 10px;
 	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
 	font-size: 30px;
+	font-weight: lighter;
 	font-style: italic;
-	
-	
+	margin-left: 220px;
+	padding-top: 50px;
 }
-h3 {
-	float: right;
+
+.kabob-desc {
 	text-align: center;
-	width: 540px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -120px;
-	font-size: 16px;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
 	color: #6d572c;
-	margin-right: 20px;
-	
-}
-
-.line-motif {
-	float: right;
-	text-align: center;
-	
-	margin-top: -200px;
-}
-
-
- .kabob-menu {
-
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -80px;
 	font-size: 16px;
-	color: #6d572c;
-	margin-right: 30px;
-
- }
-
-.rice-menu {
-	
-
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -80px;
-	font-size: 16px;
-	color: #6d572c;
-	margin-right: 30px;
+	font-weight: lighter;
 }
-.salad-menu {
-	
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -80px;
-	font-size: 16px;
+a {
+	margin-left: 250px;
 	color: #6d572c;
-	margin-right: 30px;
 }
-
-.appetizer-menu {
-	
-	float: right;
+.rice-image {
+	float: left;
+	padding-top: 50px;
+}
+.rice-tittle {
+	float: left;
 	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -60px;
-	font-size: 16px;
+	margin-right: 170px;
+	margin-top: 10px;
+	font-family: lucida bright, dejavu sans condensed, serif;
 	color: #6d572c;
-	margin-right: 30px;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 220px;
+	padding-top: 70px;
+}
+.rice-desc {
+		
+		text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+a {
+	margin-left: 250px;
+	color: #6d572c;
 }
 
-.drink-menu {
-	
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	margin-top: -60px;
-	font-size: 16px;
-	color: #6d572c;
-	margin-right: 30px;
+.salad-image {
+	float: left;
+	padding-top: 50px;
 }
-
-
-
-
-
+.salad-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 170px;
+	margin-top: -250px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 570px;
+	padding-top: 20px;
+}
+.salad-desc {
+		
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 200px;
+}
+a {
+	margin-left: 250px;
+	color: #6d572c;
+}
+.torshi-image {
+	float: left;
+	padding-top: 50px;
+}
+.torshi-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 170px;
+	margin-top: -250px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 610px;
+	padding-top: 10px;
+}
+.torshi-desc {
+		
+	text-align: center;
+	margin-left: 500px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 190px;
+}
+a {
+	margin-left: 250px;
+	color: #6d572c;
+}
+.drinks-image {
+	float: left;
+	padding-top: 50px;
+}
+.drinks-tittle {
+	float: left;
+	text-align: center;
+	margin-right: 170px;
+	margin-top: 10px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 30px;
+	font-weight: lighter;
+	font-style: italic;
+	margin-left: 220px;
+	padding-top: 90px;
+}
+.drinks-desc {
+		
+		text-align: center;
+	margin-left: 518px;
+	width: 400px;
+	font-family: lucida bright, dejavu sans condensed, serif;
+	color: #6d572c;
+	font-size: 16px;
+	font-weight: lighter;
+}
+a {
+	margin-left: 250px;
+	color: #6d572c;
+}
 
 
 

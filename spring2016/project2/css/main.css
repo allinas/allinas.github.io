@@ -166,13 +166,18 @@ h1 {
 	font-family: gill sans, sans-serif;
 	font-style:oblique;
 	text-align: center;
-	background-color: #421321;
+	background-color: #58092A;
 	margin-top: 5px;
 	
 	
 	
 	
 }
+.about-us-desc {
+	font-weight: lighter;
+	font-size: 21px;
+}
+	
 
 
 
@@ -197,6 +202,7 @@ h2 {
 	color: #6d572c;
 	font-size: 30px;
 	
+	
 }
 h3 {
 	text-align: center;
@@ -205,15 +211,17 @@ h3 {
 	font-family: lucida bright, dejavu sans condensed, serif;
 	color: #6d572c;
 	font-size: 24px;
+	font-weight: lighter;
 	
 }
-h4 {
+.gift-desc {
 	text-align: center;
 	margin-right: 100px;
 	margin-top: 10px;
 	font-family: lucida bright, dejavu sans condensed, serif;
 	color: #6d572c;
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: lighter;
 	
 }
 	

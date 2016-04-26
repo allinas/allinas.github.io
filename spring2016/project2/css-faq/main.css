@@ -150,13 +150,14 @@ nav a {
 	
 	color: #ddcfa8;
 	font-size: 24px;
-	text-align:center;
+	text-align: center;
+	width: 700px;
+	margin-left: 150px;
 }
-input {
-	width: 500px;
-	margin-left: 200px;
-	height: 30px;
+
 	
+a {
+	color: #ddcfa8;
 }
 .extra-info {
 	color: #ddcfa8;
@@ -184,12 +185,15 @@ h2 {
 	text-align: center;
 	
 }
-h3 {
+.answers {
 	color:#6d572c;
 	font-family:Gill Sans MT, Arial, sans-serif; 
 	font-style:normal;
-	font-size:16px;
-	text-align: left;
+	font-size:18px;
+	text-align:  left;
+	width: 750px;
+	
+	
 }
 ul {
 	color:#6d572c;
@@ -197,10 +201,16 @@ ul {
 	font-style:normal;
 	font-size:16px;
 	text-align: left;
+	width: 600px;
+	
 }
 	
-.line-motif  {
+.line-motif-starting  {
 	margin-top: -50px;
+	margin-left: 180px;
+}
+.line-motif-ending {
+	margin-top: 50px;
 	margin-left: 180px;
 }
 

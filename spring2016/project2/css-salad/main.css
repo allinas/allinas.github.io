@@ -147,6 +147,7 @@ nav a {
 
 }
 
+
 h1 { 
 	text-align: center;
 	font-family: lucida bright, dejavu sans condensed, serif;
@@ -201,7 +202,19 @@ td {
 	margin-left:200px;
 	
 }
+.greensalad-price {
+	margin-left: 200px;
+}
 
+.ceasersalad-price {
+	margin-left: 190px;
+}
+.olovie-price {
+	margin-left: 190px;
+}
+.shirazi-price {
+	margin-left: 190px;
+}
 .description {
 	
 	font-family:  Gill Sans MT, Arial, sans-serif;
@@ -218,8 +231,8 @@ td {
 
 
 .divier  {
-	margin-top: -50px;
-	margin-left: 190px;
+
+	margin-left: 400px;
 }
 
 

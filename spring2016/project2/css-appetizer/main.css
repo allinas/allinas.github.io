@@ -184,7 +184,56 @@ th {
 	font-size: 18px;
 	
 }
-
+.tadik-price {
+	margin-left: 270px;
+	float: left;
+	color: #6d572c;
+}
+.garlic-price {
+	margin-left: 195px;
+	float: left;
+	color: #6d572c;
+}
+.kashk-price {
+	margin-left: 155px;
+	float: left;
+	color: #6d572c;
+}
+.tourshi {
+	margin-left: 180px;
+	float: left;
+	color: #6d572c;
+}
+.mastkhiar-price {
+	margin-left: 140px;
+	float: left;
+	color: #6d572c;
+}
+.moussir {
+	margin-left: 160px;
+	float: left;
+	color: #6d572c;
+}
+.tabboule-price {
+	margin-left: 240px;
+	float: left;
+	color: #6d572c;
+}
+.hommus {
+	margin-left: 250px;
+	float: left;
+	color: #6d572c;
+}
+.beans-price {
+	margin-left: 275px;
+	float: left;
+	color: #6d572c;
+}
+.eggplant-price {
+	margin-left: 250px;
+	float: left;
+	color: #6d572c;
+}
 td {
 	float: right;
 	text-align: center;

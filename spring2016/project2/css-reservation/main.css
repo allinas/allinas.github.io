@@ -180,6 +180,7 @@ h3 {
 	color: #6d572c;
 	text-align:center;
 	margin-left: 190px;
+	
 
 }
 .resv-accommodate {
@@ -235,9 +236,10 @@ label {
 	
 }
 input {
-	width: 200px;
+	width: 150px;
 	border: #F2F2E9;
 	border-style:ridge;
+	
 }
 
 .confirm-reservation  {
@@ -253,23 +255,18 @@ input {
 
 .reserv-date {
 	float: left;
-	margin-left:40px;
+	margin-left:30px;
 	margin-top: 30px;
+	
 }
-.resrv-time {
-	float: left;
-	margin-left:40px;
-	margin-top: 30px;
-}
-.resrv-guest {
-	float:left;
-	margin-left: 50px;
-	margin-top: 30px;
+
+.contact-info {
+	margin-top: 80px;
 }
 
 
 .form {
-	background-color: #421321;
+	background-color: #58092A;
 	margin-top: 40px;
 	height: 595px;
 }
