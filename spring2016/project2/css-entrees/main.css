@@ -270,7 +270,7 @@ td {
 }
 
 footer {
-	
+	margin-top: -11px;
 	background-color:#6d572c;
 	height:180px;
 	
@@ -321,6 +321,8 @@ footer {
 }
 .social-network {
 	text-align:start;
+	margin-top: 11px;
+
 }
 
 .copyright {
