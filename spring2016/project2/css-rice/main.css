@@ -104,7 +104,12 @@ textarea {
 	
 }
 	
+.allina-idea {
+	background-image: url(../image2/wood-background%20copy%20copy.jpg);
+	margin-top: -26px;
+}
 
+	
 
 header {
 	background-color:#421321;
@@ -151,17 +156,18 @@ h1 {
 	font-family: lucida bright, dejavu sans condensed, serif;
 	font-style:normal;
 	font-size: 36px;
-	color: #720927; 
+	color: #ddcfa8;
+	padding-top: 25px;
 	
 }
 h2 {
 	
 	text-align: center;
-	color: #720927; 
+	color: #FCF9D9;
 	font-family: lucida bright, dejavu sans condensed, serif;
-	font-size: 30px;
+	font-size: 36px;
 	font-style: italic;
-	margin-top: -10px;
+	
 }
 
 h3 {
@@ -171,62 +177,50 @@ h3 {
 	font-family:  Gill Sans MT, Arial, sans-serif;
 	margin-left: 230px;
 	font-size: 18px;
-	color: #6d572c;
+	color: #ddcfa8;
 }
 
-h4 {
-	
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	color: #720927; 
-	font-style: italic;
-	font-size: 24px;
+.everything {
+	margin-left: 20px;
 }
 
 th {
 	font-family:  Gill Sans MT, Arial, sans-serif;
-	color: #6d572c;
-	font-size: 18px;
+	color: #ddcfa8;
+	font-size: 21px;
 	
 }
+.divier1  {
+	
+	margin-left: 420px;
+	}
 
+.divier  {
+	
+	margin-left: 420px;
+	}
 td {
-	float: right;
-	text-align: center;
-	width: 500px;
-	font-family:  Gill Sans MT, Arial, sans-serif;
-	
-	font-size: 16px;
-	color: #6d572c;
-	margin-left:200px;
-	
+	font-size: 24px;
 }
 
 .description {
 	
 	font-family:  Gill Sans MT, Arial, sans-serif;
-	color: #720927;
-	font-size: 14px;
+	color: #ddcfa8;
+	font-size: 16px;
 	width: 200px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 
 
-
-
-
-
-.divier  {
-	margin-top: -30px;
-	margin-left: 400px;
-}
 
 
 footer {
 	
 	background-color:#6d572c;
 	height:180px;
-	margin-top: 100px;
+	
 }
 .info1 {
 	float:right;

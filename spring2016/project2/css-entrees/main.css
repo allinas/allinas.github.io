@@ -99,22 +99,16 @@ textarea {
 
 .allina-idea {
 	background-image: url(../image2/wood-background%20copy%20copy.jpg);
+	margin-top: -26px;
 }
-	
 
-.background-image {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	
-}
 	
 
 
 header {
 	background-color:#421321;
 	
-	height:150px;
+	height:160px;
 
 
   
@@ -154,12 +148,14 @@ nav a {
 	margin-left: 20px;
 }
 
+
 h1 { 
 	text-align: center;
 	font-family: lucida bright, dejavu sans condensed, serif;
 	font-style:normal;
 	font-size: 36px;
 	color: #ddcfa8;
+	padding-top: 25px;
 	
 }
 h2 {
@@ -167,7 +163,7 @@ h2 {
 	text-align: center;
 	color: #ddcfa8;
 	font-family: lucida bright, dejavu sans condensed, serif;
-	font-size: 30px;
+	font-size: 36px;
 	font-style: italic;
 	margin-top: -10px;
 }
@@ -178,22 +174,25 @@ h3 {
 	width: 540px;
 	font-family:  Gill Sans MT, Arial, sans-serif;
 	margin-left: 230px;
-	font-size: 18px;
+	font-size: 21px;
 	color: #ddcfa8;
 }
 
 h4 {
 	
 	font-family:  Gill Sans MT, Arial, sans-serif;
-	color: #ddcfa8; 
+	color: #FCF9D9;
 	font-style: italic;
-	font-size: 24px;
+	font-size: 35px;
+	
+	margin-left: 350px;
+	
 }
 
 th {
 	font-family:  Gill Sans MT, Arial, sans-serif;
 	color: #ddcfa8;
-	font-size: 18px;
+	font-size: 21px;
 	
 }
 
@@ -204,22 +203,22 @@ th {
 }
 .barg-price {
 	float: left;
-	margin-left: 420px;
+	margin-left: 425px;
 	color: #ddcfa8;
 }
 .shish-price {
 	float: left;
-	margin-left: 410px;
+	margin-left: 415px;
 	color: #ddcfa8;
 }
 .koobide-price {
 	float: left;
-	margin-left: 325px;
+	margin-left: 310px;
 	color: #ddcfa8;
 }
 .rackoflamb-price {
 	float: left;
-	margin-left: 340px;
+	margin-left: 330px;
 	color: #ddcfa8;
 }
 .lamb-price {
@@ -235,35 +234,39 @@ th {
 }
 .chickensoltani-price {
 	float: left;
-	margin-left: 330px;
+	margin-left: 320px;
 	color: #ddcfa8;
 }
 
 .chickenbarg {
 	float: left;
-	margin-left: 350px;
+	margin-left: 340px;
 	color: #ddcfa8;
 }
 .bonekabob-price{
 	float: left;
-	margin-left: 310px;
+	margin-left: 290px;
 	color: #ddcfa8;
 }
 .description {
 	
 	font-family:  Gill Sans MT, Arial, sans-serif;
 	color: #ddcfa8;
-	font-size: 14px;
+	font-size: 16px;
 	width: 200px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .divier  {
 	
 	margin-left: 420px;
-}
+	}
 td {
-	font-size: 21px;
+	font-size: 24px;
+}
+.divier1 {
+	margin-top: 20px;
+	margin-left: 420px;
 }
 
 footer {
