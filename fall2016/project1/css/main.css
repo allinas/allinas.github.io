@@ -31,6 +31,7 @@ hr {
     padding: 0;
 }
 
+
 audio,
 canvas,
 iframe,
@@ -58,14 +59,12 @@ textarea {
 	width: 990px;
 	margin: 0 auto;
 }
-
 nav {
 	position: absolute; 
    	top: 50px; 
    	left: 60%;
 	word-spacing: 30px;
 	margin-left: 10px;
-	
 }
 a {
 	color:#E0DFDF;
@@ -74,16 +73,18 @@ a {
 	font-size: 21px;
 }
 a:hover {
-	color:#02204B;
+	color:#181FA6;
+}
+.buy-now{
+	color:#5dcea5;
+	width: 100px;
+    border: 4px groove #5dcea5;
+    padding: 2px;
+	background-color:transparent;
 }
 .logo {
 	position: absolute;
 	top: 100px;
-	float: left;
-}
-.logo2 {
-	position: absolute;
-	top: 1400px;
 	float: left;
 }
 h1 {
@@ -100,7 +101,7 @@ h1 {
 	margin: 5px;
 }
 .tittle {
-	color:#76E4FF;
+	color:#00F0FF;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:36px;
 	position:absolute;
@@ -118,31 +119,34 @@ h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	margin-top:80px;
+	color:#FFFFFF;
 	text-align:inherit;
-	background-color:white;
-	padding:10px;
-	opacity:.4;
+	background-image:url(../images/backgroundinfo.png);
+	padding: 10px;
+	text-shadow: -.5px -.5px #404040;
 }
 .getthebasics {
-	color:#71B8C8;
+	
+	color:#8DEDEF;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	font-size: 21px;
+	text-decoration:underline;
 }
 .price-statement {
 	color: #5dcea5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size:21px;
+	font-size:18px;
 	position:absolute;
 	top: 610px;
-	margin-left: 20px;
+	margin-left: 60px;
 }
 strong {
 	font-size: 28px;
 }
 h2 {
 	color:#2093e0;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Lucida Grande", sans-serif;
 	font-size:36px;
 	text-align: center;
 	margin-top:40px;
@@ -172,36 +176,39 @@ h2 {
 }
 .haze {
 	float:left;
-	Margin-left: 20px;
+	Margin-left: 15px;
 	margin-top: 20px;
+	font-weight:300;
 }
 .haze-info {
-	width:220px;
+	width:230px;
 }
 .mobile{
 	float:left;
-	Margin-left: 20px;
+	Margin-left: 15px;
 	margin-top: 20px;
+	font-weight:300;
 }
 .moblie-info{
-	width:220px;
+	width:230px;
 }
-	
 .web {
 	float:left;
-	Margin-left: 20px;
+	Margin-left: 15px;
 	margin-top: 18px;
+	font-weight:300;
 }
 .web-info {
-	width:220px;
+	width:230px;
 }
 .wrap {
 	float:left;
-	Margin-left: 20px;
+	Margin-left: 15px;
 	margin-top: 18px;
+	font-weight:300;
 }
 .wrap-info {
-	width:220px;
+	width:230px;
 }
 .links {
 	color:#5dcea5;
@@ -216,25 +223,203 @@ h3 {
 	margin-left:200px;
 	margin-top:-8px;
 }
-.photo-plan {
-	float:right;
-	font-size:28px;
-	margin-left:8px;
-	color:white;
-	margin-top:8px;
-}
-.form-col-left {
-	float:left;
-	margin-right:25px;
-}
-.form-col-right {
-	float:right;
-}
+
 placeholder {
 	color:black;
 }
+.photography-plan {
+	float:right;
+	color: white;
+	font-size:28px;
+	margin-top: 7px;
+}
+.logo2 {
+	float:left;
+	margin-right: 400px;
+	margin-top: 30px;
+	}
+.photoplan {
+	float:left;
+	margin-right: 220px;
+	margin-left: 240px;
+	font-size: 36px;
+	color:#84EDFE;
+	margin-top: -10px;
+}
+form {
+	background-image:url(../images/form.jpg);
+}
+
+input {
+	width: 380px;
+	border: #F2F2E9;
+	border-style:solid;
+	padding:7px;
+	
+}
+.registration-info {
+	margin-top: 150px;
+	margin-left: 290px;
+}
+.name {
+	margin: 2px;
+}
+.lastname {
+	margin:2px;
+}
+.email {
+	margin:2px;
+}
+.country {
+	margin: 2px;
+}
+.signup  {
+	margin-top: 5px;
+	margin-left: 380px;
+	color: white;
+	padding: 3px;
+	font-size: 36px;
+	background-color: #ec8d68;
+	border-style:groove;
+	word-spacing:5px;
+	width:170px;
+	font-weight:700;
+	font-family: "Myriad Pro", serif;
+}
+h5 {
+	color: white;
+	text-align:center;
+	font-familiy: Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:500;
+	padding-top: -20px;
+	text-shadow: -1px -1px #404040;
+	padding-right:50px;
+	}
+	
+.privacy {
+	text-decoration: underline;
+	font-size:18px;
+	color: white;
+}
+
+	
 
 
+.offering {
+	background-color: #05385b;
+	color: #FFFBFB;
+	height: 100px;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 46px;
+	padding-top: 20px;
+	font-variant:small-caps;
+	
+}
+.offerring-info {
+	background-image:url(../images/adobepromo_cover2.jpg);
+	height:670px;
+}
+.phonenumber {
+	float:left;
+	color: white;
+	padding-left: 130px;
+	font-size:26px;
+	padding-top: 15px;
+}
+.chat {
+	float:right;
+	color: white;
+	padding-right: 180px;
+	font-size:26px;
+	padding-top: 15px;
+}
+.copyright {
+	color: white;
+	padding-left: 250px;
+	padding-top: 90px;
+}
+.contact-info {
+	background-image:url(../images/Untitled-5.png);
+	height: 120px;
+	margin-top: 160px;
+}
+.cc-photography {
+	font-size: 24px;
+	font-family: "Lucida Grande", sans-serif;
+	color: black;
+	font-weight:900;
+	text-align:center;
+}
+.cc-photo-info {
+	text-align:center;
+	font-size:16px;
+	color:black;
+	font-weight:200;
+	font-family:"Lucida Grande", sans-serif;
+	padding-top: 15px;
+}
+.photo-price {
+	text-align:center;
+	font-size:24px;
+	color:black;
+	font-weight:800;
+	font-family:"Lucida Grande", sans-serif;
+	padding-top: 25px;
+}
+.photography-offering {
+	background-image:url(../images/Untitled-6.png);
+	width:252px;
+	height:350px;
+	margin-top:40px;
+	float:left;
+}
+.buy-now-photography {
+	margin:60px;
+	color: white;
+	margin-top: 30px;
+	font-size: 25px;
+	background-color: #5dcea5;
+	border-style:groove;
+	word-spacing:5px;
+	width:170px;
+	font-weight:500;
+	font-family: "Myriad Pro", serif;
+	text-align:center;
+	padding: 5px;
+}
+.learn-more-photography {
+	color:#101C93;
+	padding-top: 40px;
+	padding-left: 60px;
+	font-family: "Lucida Grande", sans-serif;
+	text-decoration:underline;
+	font-size: 20px;
+	
+	
+}
+.complete-offering {
+	float:right;
+	background-image:url(../images/Untitled-6.png);
+	width:252px;
+	height:350px;
+	margin-right:375px;
+	margin-top: -350px;
+}
+
+.student-offering {
+	float:right;
+	background-image:url(../images/Untitled-6.png);
+	width:252px;
+	height:350px;
+	margin-top: -350px;
+}
+.lets-chat {
+	text-decoration:underline;
+	color: white;
+	font-size:21px;
+	
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
