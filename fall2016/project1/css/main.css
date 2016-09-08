@@ -129,7 +129,6 @@ h1 {
 	
 	color:#8DEDEF;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-decoration: none;
 	font-size: 21px;
 	text-decoration:underline;
 }
@@ -138,7 +137,7 @@ h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:18px;
 	position:absolute;
-	top: 610px;
+	top: 600px;
 	margin-left: 60px;
 }
 strong {
@@ -177,44 +176,52 @@ h2 {
 .haze {
 	float:left;
 	Margin-left: 15px;
-	margin-top: 20px;
+	margin-top: 30px;
 	font-weight:300;
 }
 .haze-info {
 	width:230px;
+	font-size: 14px;
+	margin-top: 20px;
 }
 .mobile{
 	float:left;
 	Margin-left: 15px;
-	margin-top: 20px;
+	margin-top: 30px;
 	font-weight:300;
 }
 .moblie-info{
 	width:230px;
+	font-size: 14px;
+	margin-top: 20px;
 }
 .web {
 	float:left;
 	Margin-left: 15px;
-	margin-top: 18px;
+	margin-top: 28px;
 	font-weight:300;
 }
 .web-info {
 	width:230px;
+	font-size: 14px;
+	margin-top: 20px;
 }
 .wrap {
 	float:left;
 	Margin-left: 15px;
-	margin-top: 18px;
+	margin-top: 28px;
 	font-weight:300;
 }
 .wrap-info {
 	width:230px;
+	font-size: 14px;
+	margin-top: 20px;
 }
 .links {
 	color:#5dcea5;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 14px;
 }
 h3 {
 	color:#84EDFE;
@@ -248,6 +255,7 @@ placeholder {
 }
 form {
 	background-image:url(../images/form.jpg);
+	margin-top: 30px;
 }
 
 input {
@@ -350,6 +358,7 @@ h5 {
 	color: black;
 	font-weight:900;
 	text-align:center;
+	margin-top: 20px;
 }
 .cc-photo-info {
 	text-align:center;
@@ -377,6 +386,7 @@ h5 {
 .buy-now-photography {
 	margin:60px;
 	color: white;
+	margin-left: 65px;
 	margin-top: 30px;
 	font-size: 25px;
 	background-color: #5dcea5;
@@ -389,11 +399,13 @@ h5 {
 	padding: 5px;
 }
 .learn-more-photography {
-	color:#101C93;
+	color:#2C3231;
 	padding-top: 40px;
 	padding-left: 60px;
 	font-family: "Lucida Grande", sans-serif;
 	font-size: 20px;
+	text-decoration: underline;
+	margin-left: 5px;
 	
 	
 }
