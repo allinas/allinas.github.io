@@ -960,7 +960,7 @@ body{
 	background-image: url(../images/background-menu.jpg);
 	background-position: center center;
 	background-size: cover;
-	min-height: 800px;
+	min-height: 500px;
 	background-attachment: fixed;
 	
 }
@@ -977,19 +977,30 @@ body{
 }
 
 .responsive-img1{
-	max-width: 130px;
+	max-width: 120px;
+	margin-top:  60px;
+	
 }
-ul.topnav {
-  list-style-type: none;
-	
-	
 
+@media screen and (max-width:375px) {
+	.responsive-img1{
+		margin: 20px;
+	}
 }
+
 header{
 	background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+	
 }
+@media screen and (max-width:375px) {
+	header{
+		background: linear-gradient(to top, rgba(0,0,0,3), rgba(0,0,0,1));
+	}
+  }
+
+
 ul.topnav li {
-	text-align: center;
+	text-align: left;
 	display: inline-block;
 	
 	
@@ -1002,12 +1013,14 @@ ul.topnav li a {
 	font-weight: lighter;
 	text-decoration: none;
 	color:#1CAF10;
-	padding-left: 20px;
+	padding-left: 30px;
 
 	
 }
 ul.topnav li a:hover {
 	color:wheat;
+	
+	
 }
 
 ul.topnav li.icon {display: none;}
@@ -1036,7 +1049,15 @@ ul.topnav li.icon {display: none;}
   }
 }
 
-
+.sign-in{
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	font-size: 21px;
+	font-weight: lighter;
+	text-decoration: none;
+	color:wheat;
+	padding-left: 20px;
+	
+}
 
 
 
@@ -1047,7 +1068,7 @@ ul.topnav li.icon {display: none;}
 	font-size: 24px;
 	color: #c9b13d;
 	font-weight:300;
-	margin-top: 100px;
+	margin-top: 120px;
 
 }
 @media screen and (max-width:375px){
@@ -1064,41 +1085,44 @@ strong {
 }
 
 h1 {
-	font-family: chalkboard;
-	font-size: 36px;
+	font-family:Consolas, monospace;
+	font-size: 30px;
 	color:#e2ab25;
 	font-weight: lighter;
+	margin-top: 70px;
 	
 }
 @media screen and (max-width:375px){
 	h1{
-		font-size: 30px;
+		font-size: 24px;
+		margin: 0px;
+		text-align: center;
 }
 }
 .facebook{
 	max-width: 30px;
 	float: left;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .twitter{
 	max-width: 30px;
 	float: left;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .google{
 	max-width: 30px;
 	float: left;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .instagram{
 	max-width: 30px;
 	float: left;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .pinterest{
 	max-width: 30px;
 	float: left;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 
@@ -1124,11 +1148,11 @@ h1 {
 	animation-name: enjoy;
 	animation-delay: 1s;
 	animation-duration: .5s;
-	margin-top: -22px;
 	animation-iteration-count: 1;
 	display:block;
 	height: 40px;
 	width: 140px;
+	margin-top:50px;
 	margin-left: 108px;
 	animation-direction:normal;
 	animation-fill-mode: both;
@@ -1142,13 +1166,13 @@ h1 {
 
 @media screen and (max-width:768px){
 	.enjoy{
-		margin-top: 100px;
+		margin-top: 150px;
 	}
 }
 
 @media screen and (max-width:375px){
 	.enjoy {
-	margin-top: 85px;
+	margin-top: 110px;
 	}
 }
 .beverages {
@@ -1279,7 +1303,7 @@ h1 {
 	animation-iteration-count: 1;
 	display:block;
 	width: 150px;
-	height: 140px;
+	height: 120px;
 	margin-left: 120px;
 	animation-direction:normal;
 	animation-fill-mode: both;
@@ -1300,7 +1324,7 @@ h1 {
 	display:block;
 	width: 150px;
 	height: 35px;
-	margin-left: 90px;
+	margin-left: 95px;
 	animation-direction:normal;
 	animation-fill-mode: both;
 	animation-timing-function:linear;

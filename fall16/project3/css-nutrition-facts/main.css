@@ -965,33 +965,6 @@ body{
 	background-attachment: fixed;
 	
 }
-nav {
-   	top: 5px;
-	text-align: center;
-	font-family: Lato,Helvetica,Arial,sans-serif;
-	font-size: 21px;
-	font-weight: lighter;
-	position: relative;
-	
-	
-	
-}
-header{
-	background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
-}
-nav > a {
-	text-decoration: none;
-	color:#1CAF10;
-	padding-left: 8px;
-
-	
-	
-}
-
-nav > a:hover {
-	color: wheat;
-	
-}
 .location {
 	padding-left: 5px;
 	width: 25px;
@@ -1004,16 +977,102 @@ nav > a:hover {
 
 .responsive-img1{
 	max-width: 120px;
-}
-a {
-	text-decoration: none;
-	padding: 0px;
-	margin: 0px;
+	margin-top:  20px;
 	
 }
-a:hover {
-	color:#8B571B;
+
+
+@media screen and (max-width:375px) {
+	.responsive-img1{
+		margin: 20px;
+	}
 }
+.tittle {
+	font-family:Consolas, monospace;
+	font-size: 30px;
+	color:#e2ab25;
+	font-weight: lighter;
+	
+}
+@media screen and (max-width:375px){
+	.tittle{
+		font-size: 24px;
+		margin: 0px;
+		text-align: center;
+}
+}
+header{
+	background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+	
+}
+@media screen and (max-width:375px) {
+	header{
+		background: linear-gradient(to top, rgba(0,0,0,3), rgba(0,0,0,1));
+	}
+  }
+
+
+ul.topnav li {
+	text-align: left;
+	display: inline-block;
+	
+	
+}
+
+ul.topnav li a {
+  	display: inline-block;
+  	font-family: Lato,Helvetica,Arial,sans-serif;
+	font-size: 21px;
+	font-weight: lighter;
+	text-decoration: none;
+	color:#1CAF10;
+	padding-left: 30px;
+
+	
+}
+ul.topnav li a:hover {
+	color:wheat;
+	
+	
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:375px) {
+  ul.topnav li {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:375px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+.sign-in{
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	font-size: 21px;
+	font-weight: lighter;
+	text-decoration: none;
+	color:wheat;
+	padding-left: 20px;
+	
+}
+
+
 
 .responsive-img{
 	max-width: 100%;
@@ -1024,35 +1083,39 @@ a:hover {
 
 .drink-name{
 	color: #C2B333;
-	font-size: 30px;
-	font-family: Chalk-hand-lettering-shaded_demo;
-	font-weight: lighter;
-	letter-spacing: 2px;
+	font-size: 28px;
+	margin-top: 50px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	
 	
+}
+@media screen and (max-width:375px){
+	.drink-name{
+		font-size: 24px;
+	}
 }
 .product-description{
 	padding-top: 25px;
 }
 p{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #C2B333;
 }
 h2{
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	color: #C2B333;
 }
 
 .daily-value{
-	padding-right: 100px;
+	width: 120px;
 	text-align: right;
 	color: #C2B333;
 }
 @media screen and (max-width:375px){
 	.daily-value {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 td{
@@ -1068,6 +1131,7 @@ td{
 }
 th{
 	display: table-cell;
+	padding: 3px;
 }
 table{
 	border-collapse: collapse;
@@ -1085,11 +1149,10 @@ table{
 	}
 .tittl-ingredients{
 	color: #C2B333;
-	font-family:  Chalk-hand-lettering-shaded_demo;
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bolder;
-	font-size: 36px;
+	font-size: 28px;
 	padding-top: 50px;
-	letter-spacing: 2px;
 }
 strong{
 	font-weight: 100;

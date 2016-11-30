@@ -15,21 +15,41 @@
 <body>
    	<div class="chalkboard-bg">
     	<header>
-				<nav>
-                	<a href="join-us.html" id="join-us">Join Us </a>
-                    <a href="sign-in.html" id="sign-in">Sign In</a>
-                    <a href="menu.html" id="menu">Drink Menu</a>
-					<a href="index.html"> <img src="images/starbucks-logo.svg" class ="responsive-img1" alt ="responsive-img" /></a>
-                    <a href="add-to-card.html" id="add-to-card">Show My Bag<img src="images/bag.png" alt="bag" class="bag"></a>
-                    <a href="find-a-location.html" id="find-a-location">Find a Store<img src="images/location.png" alt="location" class="location"></a>
-           		</nav>
+    		<div class="container">
+				<ul class="topnav" id="myTopnav">
+			  		
+				  <li><a class="active" href="menu.html" id="menu">Drink Menu</a></li>
+				  	<li><a href="add-to-card.html" id="add-to-card">Show My Bag<img src="images/bag.png" alt="bag" class="bag"></a></li>
+					<li><a href="find-a-location.html" id="find-a-location">Find a Store<img src="images/location.png" alt="location" class="location"></a></li>
+				  <li class="icon">
+					<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+				  </li>
+				</ul>
+			</div>
          </header><!--header-->
-		
-			
-			<div class="container">
+         
+         <div class="container" >
+         	
+             <div class="row">
+              <div class="col-xs-8 push-xs-4 col-md-4 push-md-8">
+				  <a href="join-us.html" id="join-us" class="sign-in">Join Us </a>
+				  <a href="sign-in.html" id="sign-in" class="sign-in">Sign In</a>
+               </div>
+			 </div>
+               <div class="row">
+               
+					<div class="col-xs-4 push-xs-3 col-md-3 push-md-0 col-lg-2">
+						<a href="index.html"> <img src="images/logo.png" class ="responsive-img1" alt ="responsive-img" /></a>
+					</div>
+                <div class="col-xs-12 col-md-7 push-md-0 col-lg-6 ">
+                	
+					<div class="tittle">Starbucks Frappuccino Blended Beverages</div>
+				</div>
+			 </div>
+	
 				<div class="row">
-					<div class="col-xs-12 col-md-10 push-md-1 col-lg-10 push-lg-2 ">
-						<h1 class="drink-name">Caffè Vanilla Frappuccino Blended Coffee<sup>&reg;</sup></h1>
+					<div class="col-xs-12 col-md-10 col-lg-10  ">
+						<div class="drink-name">Caffè Vanilla Frappuccino Blended Coffee<sup>&reg;</sup></div>
 					</div>
 					<div class="col-xs-10 push-xs-1 col-md-4 push-md-0 col-lg-4">
 						<img src="images/cafe-vanilla.png" class ="responsive-img" alt ="cinnamon dolce frap" />
@@ -37,21 +57,24 @@
 					</div>
 					<div class="col-xs-12 col-md-8  col-lg-8 ">
 						<p class="product-description">We take Frappuccino® roast coffee and vanilla bean powder, combine them with milk and ice, then top it with whipped cream. Tastes like happiness.</p>
+					</div>
+					<div class="col-xs-12 col-md-4 ">
+					
 						<img src="images/rate-stars.svg" class ="responsive-img-2" alt ="star rating" />
 						<div class="product-price">$3.99</div>
-						<br />
+					</div>
+					<div class="col-xs-12 col-md-8">
 						<h2>Nutrition Facts Per Serving (16 fl oz)</h2>
-						<table>
+						<table border="2">
 							<tbody>
 								<tr>
 									<td>Calories 430</td>
 									<td>Calories from Fat 130</td>
 								
 								</tr>
-								<hr />
 								<tr>
 									<th></th>
-									<th class="daily-value">%Daily Value*</th>
+									<th class="daily-value">%Daily Value</th>
 								</tr>
 								<tr>
 									<td>Total Fat 14g</td>
@@ -113,7 +136,7 @@
 						</table>
 					</div>
 				</div>
-			</div>
+				</div>
 			<br />
 			<br />
 			<div class="container">
@@ -167,7 +190,6 @@
 				</div>
             	    	
            <div class="copyright">© 2016 Starbucks Corporation. All rights reserved.</div>
-	</div>
 	
 	 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -182,6 +204,6 @@ function goBack() {
 
         <script src="js/main.js"></script>          		
 	           		           		           		
-
+	</div>
 </body>
 </html>
